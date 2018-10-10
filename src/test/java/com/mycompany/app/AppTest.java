@@ -57,5 +57,11 @@ public class AppTest
       assertFalse(new App().search(array,array1,2, 1));
     }
 
+     public void testEmptyArray1() {
+      ArrayList<Integer> array = new ArrayList<>(1,2,3,4);
+      ArrayList<Integer> array1 = new ArrayList<>(Arrays.asList());
+      assertFalse(new App().search(array,array1,2, 1));
+    }
+
 
 }
