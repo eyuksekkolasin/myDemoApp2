@@ -64,10 +64,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.mycompany.app.AppTest" name="testApp" time="0.003"/>
-  <testcase classname="com.mycompany.app.AppTest" name="testNotFound" time="0.002"/>
-  <testcase classname="com.mycompany.app.AppTest" name="testEmptyArray" time="0"/>
-  <testcase classname="com.mycompany.app.AppTest" name="testEmptyArray1" time="0"/>
-  <testcase classname="com.mycompany.app.AppTest" name="testFound" time="0"/>
+  <testcase classname="com.mycompany.app.AppTest" name="testApp" time="0.002"/>
+  <testcase classname="com.mycompany.app.AppTest" name="testFound" time="0.003"/>
   <testcase classname="com.mycompany.app.AppTest" name="testReverse" time="0"/>
+  <testcase classname="com.mycompany.app.AppTest" name="testEmptyArray1" time="0"/>
+  <testcase classname="com.mycompany.app.AppTest" name="testEmptyArray" time="0"/>
+  <testcase classname="com.mycompany.app.AppTest" name="testNotFound" time="0"/>
 </testsuite>
