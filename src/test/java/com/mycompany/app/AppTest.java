@@ -58,10 +58,15 @@ public class AppTest
     }
 
      public void testEmptyArray1() {
-      ArrayList<Integer> array = new ArrayList<>(1,2,3,4);
+      ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,2,3,4));
       ArrayList<Integer> array1 = new ArrayList<>(Arrays.asList());
       assertFalse(new App().search(array,array1,2, 1));
     }
 
+     public void testReverse() {
+      ArrayList<Integer> array = new ArrayList<>(Arrays.asList(1,2,3,4));
+      ArrayList<Integer> array1 = new ArrayList<>(Arrays.asList(-1,5,2,3));
+      assertTrue(new App().search(array,array1,1, 2));
+    }
 
 }
